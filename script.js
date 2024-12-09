@@ -16,14 +16,15 @@ function setup() {
   stroke("black");
   createCanvas(windowWidth, windowHeight);
   textFont(heading);
+  background(171, 205, 212);
   slider = createSlider(0, 100, 1);
   slider.position(100, 120);
   slider.size(200);
   slider.addClass("mySliders");
   getColors1(9);
   getColors2(9);
-  fill(0, 0, 0, 0);
-  rect(30, 200, windowWidth - 100, windowHeight - 330)
+  fill(255, 255, 255);
+  rect(30, 200, windowWidth - 100, windowHeight - 330);
 }
 
 function draw() {
